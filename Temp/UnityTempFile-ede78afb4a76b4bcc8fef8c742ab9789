@@ -1,0 +1,269 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:'Temp/Assembly-CSharp.dll'
+-unsafe
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PhysicsModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VehiclesModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClothModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AnimationModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.IMGUIModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UNETModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DirectorModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WebModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ARModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VRModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIElementsModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AudioModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GameCenterModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GridModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.Physics2DModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TilemapModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VideoModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WindModule.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll'
+-r:'/Users/blessingorazulume/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll'
+-r:'/Users/blessingorazulume/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll'
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_2_0
+-define:UNITY_2017_2
+-define:UNITY_2017
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:ENABLE_SPRITE_MASKING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_VIDEO
+-define:ENABLE_RMGUI
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_STYLE_SHEETS
+-define:PLATFORM_STANDALONE_OSX
+-define:PLATFORM_STANDALONE
+-define:UNITY_STANDALONE_OSX
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_GAMECENTER
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:ENABLE_SPATIALTRACKING
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_OSX
+-define:ENABLE_NATIVE_ARRAY_CHECKS
+-define:UNITY_TEAM_LICENSE
+'Assets/PerformanceBounceback/Scripts/BallSpawner.cs'
+'Assets/PerformanceBounceback/Scripts/GameManager.cs'
+'Assets/PerformanceBounceback/Scripts/Score.cs'
+'Assets/PerformanceBounceback/Scripts/Throw.cs'
+'Assets/PerformanceBounceback/Scripts/Trampoline.cs'
+'Assets/PerformanceBounceback/Scripts/TrampolineMovement.cs'
+'Assets/PerformanceBounceback/SteamVR/Extras/SteamVR_GazeTracker.cs'
+'Assets/PerformanceBounceback/SteamVR/Extras/SteamVR_LaserPointer.cs'
+'Assets/PerformanceBounceback/SteamVR/Extras/SteamVR_Teleporter.cs'
+'Assets/PerformanceBounceback/SteamVR/Extras/SteamVR_TestThrow.cs'
+'Assets/PerformanceBounceback/SteamVR/Extras/SteamVR_TestTrackedCamera.cs'
+'Assets/PerformanceBounceback/SteamVR/Extras/SteamVR_TrackedController.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/BodyCollider.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/CircularDrive.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/ComplexThrowable.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/ControllerHoverHighlight.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/CustomEvents.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/DebugUI.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/DestroyOnDetachedFromHand.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/DestroyOnParticleSystemDeath.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/DestroyOnTriggerEnter.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/DistanceHaptics.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/DontDestroyOnLoad.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/EnumFlags.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/FallbackCameraController.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/Hand.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/HapticRack.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/HideOnHandFocusLost.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/IgnoreHovering.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/InputModule.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/Interactable.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/InteractableButtonEvents.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/InteractableHoverEvents.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/ItemPackage.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/ItemPackageReference.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/ItemPackageSpawner.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/LinearAnimation.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/LinearAnimator.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/LinearAudioPitch.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/LinearBlendshape.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/LinearDisplacement.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/LinearDrive.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/LinearMapping.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/Player.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/PlaySound.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/SeeThru.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/SleepOnAwake.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/SoundDeparent.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/SoundPlayOneshot.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/SpawnAndAttachAfterControllerIsTracking.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/SpawnAndAttachToHand.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/SpawnRenderModel.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/Throwable.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/UIElement.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/Unparent.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/Util.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Core/Scripts/VelocityEstimator.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Hints/Scripts/ControllerButtonHints.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Longbow/Scripts/ArcheryTarget.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Longbow/Scripts/Arrow.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Longbow/Scripts/ArrowHand.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Longbow/Scripts/ArrowheadRotation.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Longbow/Scripts/Balloon.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Longbow/Scripts/BalloonColliders.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Longbow/Scripts/BalloonHapticBump.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Longbow/Scripts/BalloonSpawner.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Longbow/Scripts/ExplosionWobble.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Longbow/Scripts/FireSource.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Longbow/Scripts/Longbow.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Longbow/Scripts/SoundBowClick.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Samples/Scripts/ControllerHintsExample.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Samples/Scripts/InteractableExample.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Teleport/Scripts/AllowTeleportWhileAttachedToHand.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Teleport/Scripts/ChaperoneInfo.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Teleport/Scripts/IgnoreTeleportTrace.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Teleport/Scripts/Teleport.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Teleport/Scripts/TeleportArc.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Teleport/Scripts/TeleportArea.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Teleport/Scripts/TeleportMarkerBase.cs'
+'Assets/PerformanceBounceback/SteamVR/InteractionSystem/Teleport/Scripts/TeleportPoint.cs'
+'Assets/PerformanceBounceback/SteamVR/Plugins/openvr_api.cs'
+'Assets/PerformanceBounceback/SteamVR/Scripts/SteamVR.cs'
+'Assets/PerformanceBounceback/SteamVR/Scripts/SteamVR_Camera.cs'
+'Assets/PerformanceBounceback/SteamVR/Scripts/SteamVR_CameraFlip.cs'
+'Assets/PerformanceBounceback/SteamVR/Scripts/SteamVR_CameraMask.cs'
+'Assets/PerformanceBounceback/SteamVR/Scripts/SteamVR_Controller.cs'
+'Assets/PerformanceBounceback/SteamVR/Scripts/SteamVR_ControllerManager.cs'
+'Assets/PerformanceBounceback/SteamVR/Scripts/SteamVR_Ears.cs'
+'Assets/PerformanceBounceback/SteamVR/Scripts/SteamVR_Events.cs'
+'Assets/PerformanceBounceback/SteamVR/Scripts/SteamVR_ExternalCamera.cs'
+'Assets/PerformanceBounceback/SteamVR/Scripts/SteamVR_Fade.cs'
+'Assets/PerformanceBounceback/SteamVR/Scripts/SteamVR_Frustum.cs'
+'Assets/PerformanceBounceback/SteamVR/Scripts/SteamVR_GameView.cs'
+'Assets/PerformanceBounceback/SteamVR/Scripts/SteamVR_IK.cs'
+'Assets/PerformanceBounceback/SteamVR/Scripts/SteamVR_LoadLevel.cs'
+'Assets/PerformanceBounceback/SteamVR/Scripts/SteamVR_Menu.cs'
+'Assets/PerformanceBounceback/SteamVR/Scripts/SteamVR_Overlay.cs'
+'Assets/PerformanceBounceback/SteamVR/Scripts/SteamVR_PlayArea.cs'
+'Assets/PerformanceBounceback/SteamVR/Scripts/SteamVR_Render.cs'
+'Assets/PerformanceBounceback/SteamVR/Scripts/SteamVR_RenderModel.cs'
+'Assets/PerformanceBounceback/SteamVR/Scripts/SteamVR_Skybox.cs'
+'Assets/PerformanceBounceback/SteamVR/Scripts/SteamVR_SphericalProjection.cs'
+'Assets/PerformanceBounceback/SteamVR/Scripts/SteamVR_Stats.cs'
+'Assets/PerformanceBounceback/SteamVR/Scripts/SteamVR_TestController.cs'
+'Assets/PerformanceBounceback/SteamVR/Scripts/SteamVR_TrackedCamera.cs'
+'Assets/PerformanceBounceback/SteamVR/Scripts/SteamVR_TrackedObject.cs'
+'Assets/PerformanceBounceback/SteamVR/Scripts/SteamVR_UpdatePoses.cs'
+'Assets/PerformanceBounceback/SteamVR/Scripts/SteamVR_Utils.cs'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Xml.Linq.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/UnityScript.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/UnityScript.Lang.dll'
+-r:'/Volumes/TOSHIBA EXT/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/Boo.Lang.dll'
+-sdk:unity
