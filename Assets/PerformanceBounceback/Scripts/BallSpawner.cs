@@ -25,7 +25,7 @@ public class BallSpawner : MonoBehaviour {
         pooledBalls = new List<GameObject>();
         for (int i = 0; i < ballsAmount; i++)
         {
-			GameObject obj = Destroy(pooledBall);
+			GameObject obj = Instantiate(pooledBall);
             obj.SetActive(false);
             pooledBalls.Add(obj);
         }
@@ -42,7 +42,7 @@ public GameObject GetPooledBall()
     if (pooledBalls[ballPoolNum].activeInHierarchy)
     {
         //create a new bullet and add it to the bulletList
-        GameObject obj = Destroy(pooledBall);
+		GameObject obj = Instantiate(pooledBall);
         pooledBalls.Add(obj);
         ballsAmount++;
         ballPoolNum = ballsAmount - 1;
@@ -61,8 +61,7 @@ public GameObject GetPooledBall()
         }		
 	}
 
-    void SpawnBall()
-    {
+    void SpawnBall() {
         GameObject selectedBall = BallSpawner.current.GetPooledBall();
         selectedBall.transform.position = transform.position;
         Rigidbody selectedRigidbody = selectedBall.GetComponent<Rigidbody>();
