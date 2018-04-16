@@ -7,6 +7,7 @@ public class Score : MonoBehaviour {
 
     public GameManager gameManager;
 	public Text text;
+	private int previousScore = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -16,7 +17,14 @@ public class Score : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		if (gameManager.score != previousScore) {
+			previousScore = gameManager.score;
+			UpdateScore();
+		}
+       
+	}
 
-        text.text = "Score: " + gameManager.score.ToString();
+	private void UpdateScore() {
+		text.text = "Score: " + gameManager.score.ToString();
 	}
 }
